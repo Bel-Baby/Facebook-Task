@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#Flex-wrapper{
+    background-color:  rgb(230, 236, 236);
+    height: 100vh;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin: auto 100px auto 70px;
+}
+
+.flex header{
+    width: 400px;
+    height: 300px;
+}
+
+.flex header p{
+    margin-left: 30px;
+    font-size:26px;
+    width: 500px;
+}
+
+.flex .form{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 4px 15px 0 #ccc;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 8px;
+    outline: 0;
+    border: lightgrey solid 1px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+::placeholder{
+    padding-left: 20px; 
+    color: #ccc;
+    font-size: 17px;   
+}
+
+button{
+    height: 50px;
+    width: 100%;
+    border-style: none;
+    border-radius: 10px;
+    display: block;
+    color: #fff;
+    font-weight: 800;
+}
+
+.createAccountBtn{
+    background-color: rgb(33, 179, 4);
+    margin: auto;
+    width: 60%;
+}
+
+.logInBtn{
+    background-color: rgb(67, 152, 233);
+}
+
+.forgotPassword{
+    text-decoration: none;
+    color: skyblue;
+    margin-left: 120px;
+}
+
+.hr{
+    margin: 20px 0px;
+    color: #ccc;
+}
+
+main section p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+main section p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+footer{
+    width: 73%;
+    margin: 30px auto 20px;
+}
+
+footer p{
+    margin-right: 10px;
+    color: #696969;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    line-height: 2em; 
+    flex-wrap: wrap;
+}
+
+.footflex{
+    display: flex;
+}
+
+.footflex ul{
+    position: relative;
+    bottom: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #888888;
+}
